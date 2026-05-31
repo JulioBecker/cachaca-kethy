@@ -1,0 +1,87 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme {
+  --color-brand-beige: #E7CFA5;
+  --color-brand-chocolate: #32221A;
+  --color-brand-dark: #231913;
+  --color-brand-dark-light: #3b2a20;
+  --color-brand-dark-darker: #19110d;
+  --color-brand-gold: #dfbd82;
+  --color-brand-light: #FBF8F3;
+  --color-brand-light-gray: #EFECE6;
+  
+  --font-sans: 'Montserrat', sans-serif;
+  
+  --animate-fade-in: fadeIn 0.5s ease-out forwards;
+  --animate-slide-up: slideUp 0.6s ease-out forwards;
+  --animate-slide-down: slideDown 0.4s ease-out forwards;
+  --animate-scale-in: scaleIn 0.4s ease-out forwards;
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes slideUp {
+    0% { transform: translateY(30px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  @keyframes slideDown {
+    0% { transform: translateY(-20px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  @keyframes scaleIn {
+    0% { transform: scale(0.95); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-brand-light text-brand-dark selection:bg-brand-beige selection:text-brand-dark antialiased;
+  }
+}
+
+/* Custom transitions and scrollbar overrides */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #231913;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E7CFA5;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dfbd82;
+}
+
+/* Custom styling for inputs */
+input, select, textarea {
+  @apply transition-all duration-300;
+}
+
+/* Range input customization */
+input[type="range"]::-webkit-slider-thumb {
+  border: 2px solid #E7CFA5;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #32221A;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -6px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  background: #E7CFA5;
+  border-radius: 2px;
+}
