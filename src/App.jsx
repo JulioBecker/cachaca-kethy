@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { useAuthStore } from "./store/useAuthStore";
 import { useProductStore } from "./store/useProductStore";
 import { useOrderStore } from "./store/useOrderStore";
@@ -84,7 +84,7 @@ export default function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Routes>
         {/* Main Public Routes Layout */}
@@ -136,6 +136,6 @@ export default function App() {
       
       {/* Global Slide-up Alerts */}
       <Toast />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
