@@ -362,7 +362,10 @@ export default function Home() {
                 className="bg-brand-dark/80 border border-brand-chocolate/40 hover:border-brand-beige/50 group transition-all duration-300 flex flex-col justify-between shadow-xl"
               >
                 {/* Image block (Represented with luxury SVG template) */}
-                <div className="p-6 flex items-center justify-center bg-brand-chocolate/20 border-b border-brand-chocolate/40 relative overflow-hidden aspect-[4/5]">
+                <Link
+                  to={`/produto/${product.id}`}
+                  className="p-6 flex items-center justify-center bg-brand-chocolate/20 border-b border-brand-chocolate/40 relative overflow-hidden aspect-[4/5] block cursor-pointer"
+                >
                   {/* Decorative background light */}
                   <div className="absolute inset-0 bg-radial-gradient from-brand-beige/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                   
@@ -381,7 +384,7 @@ export default function Home() {
                       Esgotado
                     </div>
                   )}
-                </div>
+                </Link>
 
                 {/* Info block */}
                 <div className="p-5 space-y-2 text-left">

@@ -255,7 +255,10 @@ export default function Catalog() {
                     className="bg-white border border-brand-chocolate/15 hover:border-brand-beige/60 group transition-all duration-300 flex flex-col justify-between shadow-sm hover:shadow-lg"
                   >
                     {/* Visual Bottle block */}
-                    <div className="flex items-center justify-center bg-brand-light border-b border-brand-chocolate/5 relative overflow-hidden aspect-[4/5]">
+                    <Link
+                      to={`/produto/${product.id}`}
+                      className="flex items-center justify-center bg-brand-light border-b border-brand-chocolate/5 relative overflow-hidden aspect-[4/5] block cursor-pointer"
+                    >
                       <div className="absolute inset-0 bg-radial-gradient from-brand-beige/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                       
                       {/* Product Image */}
@@ -276,14 +279,13 @@ export default function Catalog() {
                       )}
 
                       {/* Detail hover button */}
-                      <Link
-                        to={`/produto/${product.id}`}
-                        className="absolute bottom-3 bg-brand-dark/90 hover:bg-brand-dark border border-brand-beige/35 text-brand-beige text-[9px] uppercase tracking-widest px-3 py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center space-x-1"
+                      <div
+                        className="absolute bottom-3 bg-brand-dark/90 hover:bg-brand-dark border border-brand-beige/35 text-brand-beige text-[9px] uppercase tracking-widest px-3 py-2 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex items-center space-x-1"
                       >
                         <Eye size={10} />
                         <span>Ver Detalhes</span>
-                      </Link>
-                    </div>
+                      </div>
+                    </Link>
 
                     {/* Details Info */}
                     <div className="p-5 space-y-2 text-left">
