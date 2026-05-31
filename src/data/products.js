@@ -12,7 +12,7 @@ export const initialProducts = [
     stock: 45,
     rating: 4.9,
     salesCount: 142,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Envelhecida 5 Anos", "Sem aditivos químicos", "Destilação em alambique de cobre"],
     details: {
       color: "Dourado intenso e límpido",
@@ -38,7 +38,7 @@ export const initialProducts = [
     stock: 120,
     rating: 4.7,
     salesCount: 215,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Descansada 1 Ano", "Ideal para Caipirinhas", "Sabor frutado e herbáceo"],
     details: {
       color: "Incolor e cristalina",
@@ -63,7 +63,7 @@ export const initialProducts = [
     stock: 60,
     rating: 4.9,
     salesCount: 188,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Envelhecida 3 Anos", "Madeira Nativa Brasileira", "Aromas de canela e baunilha"],
     details: {
       color: "Amarelo-palha brilhante",
@@ -89,7 +89,7 @@ export const initialProducts = [
     stock: 50,
     rating: 4.8,
     salesCount: 89,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Envelhecida 2 Anos", "Coloração levemente rosada", "Suavidade floral marcante"],
     details: {
       color: "Amarelo pálido com reflexos rosados",
@@ -114,7 +114,7 @@ export const initialProducts = [
     stock: 35,
     rating: 4.6,
     salesCount: 74,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Envelhecida 3 Anos", "Notas de anis e cravo", "Final herbáceo e refrescante"],
     details: {
       color: "Dourado com nuances esverdeadas",
@@ -137,7 +137,7 @@ export const initialProducts = [
     stock: 12,
     rating: 5.0,
     salesCount: 38,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Envelhecida 10 Anos", "Barril Único (Single Barrel)", "Garrafa numerada de cristal"],
     details: {
       color: "Âmbar escuro e oleoso",
@@ -163,7 +163,7 @@ export const initialProducts = [
     stock: 40,
     rating: 4.8,
     salesCount: 65,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Envelhecida 3 Anos", "Madeira de Castanheira do Pará", "Sabor amendoado"],
     details: {
       color: "Dourado claro translúcido",
@@ -186,7 +186,7 @@ export const initialProducts = [
     stock: 28,
     rating: 4.9,
     salesCount: 110,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Envelhecimento Triplo", "Complexidade aromática premium", "Edição limitada"],
     details: {
       color: "Âmbar médio brilhante",
@@ -211,7 +211,7 @@ export const initialProducts = [
     stock: 80,
     rating: 4.7,
     salesCount: 175,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Mel Puro Silvestre", "Cítrico e Refrescante", "Teor Alcoólico Reduzido"],
     details: {
       color: "Amarelo turvo natural",
@@ -236,7 +236,7 @@ export const initialProducts = [
     stock: 75,
     rating: 4.9,
     salesCount: 198,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Grãos 100% Arábica", "Textura cremosa premium", "Sabor de expresso e chocolate"],
     details: {
       color: "Marrom escuro cremoso (cor de café com leite)",
@@ -261,7 +261,7 @@ export const initialProducts = [
     stock: 55,
     rating: 4.6,
     salesCount: 52,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Envelhecida 2 Anos", "Amaciamento natural", "Notas de cana fresca"],
     details: {
       color: "Amarelo palha claro",
@@ -284,7 +284,7 @@ export const initialProducts = [
     stock: 25,
     rating: 4.9,
     salesCount: 88,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Envelhecida 4 Anos", "Edição Limitada e Numerada", "Homenagem à Garuva - SC"],
     details: {
       color: "Dourado acobreado",
@@ -309,7 +309,7 @@ export const initialProducts = [
     stock: 65,
     rating: 4.8,
     salesCount: 115,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Certificação Orgânica", "Fermentação Selvagem Natural", "Processo Sustentável"],
     details: {
       color: "Transparente e límpida",
@@ -332,7 +332,7 @@ export const initialProducts = [
     stock: 45,
     rating: 4.5,
     salesCount: 39,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Envelhecida 2 Anos", "Madeira Neutra de Freijó", "Aveludado leve"],
     details: {
       color: "Amarelo palha bem suave",
@@ -355,7 +355,7 @@ export const initialProducts = [
     stock: 20,
     rating: 5.0,
     salesCount: 47,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Envelhecida 6 Anos", "Barris de Vinho Francês", "Notas de chocolate e uvas passas"],
     details: {
       color: "Âmbar acobreado profundo",
@@ -380,7 +380,7 @@ export const initialProducts = [
     stock: 90,
     rating: 4.6,
     salesCount: 154,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Envelhecida 1 Ano", "Ideal para Drinks", "Cor dourada suave"],
     details: {
       color: "Dourado palha brilhante",
@@ -403,7 +403,7 @@ export const initialProducts = [
     stock: 85,
     rating: 4.8,
     salesCount: 122,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Descansada 1 Ano", "Máximo equilíbrio", "Totalmente cristalina"],
     details: {
       color: "Transparente e brilhante",
@@ -428,7 +428,7 @@ export const initialProducts = [
     stock: 70,
     rating: 4.7,
     salesCount: 135,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Polpa de Maracujá Real", "Agridoce Equilibrado", "Sabor Tropical Intenso"],
     details: {
       color: "Amarelo dourado intenso, com sementes decorativas",
@@ -451,7 +451,7 @@ export const initialProducts = [
     stock: 30,
     rating: 4.9,
     salesCount: 95,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Garrafa Família 1 Litro", "Envelhecida 5 Anos em Carvalho", "Embalagem premium para presente"],
     details: {
       color: "Dourado intenso",
@@ -476,7 +476,7 @@ export const initialProducts = [
     stock: 110,
     rating: 4.9,
     salesCount: 240,
-    images: ["/img/produto.jpg", "/img/produto.jpg"],
+    images: ["img/produto.jpg", "img/produto.jpg"],
     features: ["Kit com 2 miniaturas de 50ml", "Copinho shot de cristal incluso", "Caixa luxuosa de presente"],
     details: {
       color: "Uma dourada e uma incolor",

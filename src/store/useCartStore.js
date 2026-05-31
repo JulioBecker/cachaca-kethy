@@ -37,7 +37,7 @@ export const useCartStore = create((set, get) => {
             price: product.price,
             quantity: quantity,
             volume: product.volume,
-            image: product.images[0] || "/default_bottle.jpg"
+            image: product.images[0] || "default_bottle.jpg"
           }
         ];
       }

@@ -44,7 +44,7 @@ export default function Home() {
         {/* Background Image Banner */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/img/produto3.jpeg" 
+            src="img/produto3.jpeg" 
             alt="Cachaça Kethy Rios Banner" 
             className="w-full h-full object-cover object-center"
           />
@@ -225,7 +225,7 @@ export default function Home() {
               <div className="border border-brand-beige/50 p-3 bg-white shadow-2xl relative max-w-[260px] sm:max-w-xs md:max-w-sm w-full mx-auto">
                 <div className="aspect-[4/5] bg-brand-dark/10 flex items-center justify-center overflow-hidden relative group">
                   <img 
-                    src="/img/produto.jpg" 
+                    src="img/produto.jpg" 
                     alt="Cachaça Kethy Rios Origem"
                     className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-500"
                   />
@@ -367,7 +367,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-radial-gradient from-brand-beige/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                   
                   <img
-                    src="/img/produto.jpg"
+                    src="img/produto.jpg"
                     alt={product.name}
                     className="max-h-[200px] object-contain transform group-hover:scale-105 transition-transform duration-300 rounded"
                   />

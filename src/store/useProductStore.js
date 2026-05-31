@@ -19,7 +19,7 @@ export const useProductStore = create((set, get) => {
         salesCount: 0,
         rating: 5.0,
         reviews: [],
-        images: ["/placeholder_bottle.jpg"],
+        images: ["placeholder_bottle.jpg"],
         features: productData.features || [],
         details: productData.details || {
           color: "Não informada",

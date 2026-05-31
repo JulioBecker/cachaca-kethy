@@ -420,7 +420,7 @@ export default function ClientDashboard() {
                         <div className="flex items-center space-x-3">
                           <div className="w-10 h-14 bg-brand-light border border-brand-chocolate/5 flex items-center justify-center p-1 shrink-0">
                             <img
-                              src={p.images?.[0] || "/img/produto.jpg"}
+                              src={p.images?.[0] || "img/produto.jpg"}
                               alt={p.name}
                               className="max-h-[50px] object-contain rounded"
                             />

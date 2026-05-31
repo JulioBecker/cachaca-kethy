@@ -260,7 +260,7 @@ export default function Catalog() {
                       
                       {/* Product Image */}
                       <img
-                        src={product.images?.[0] || "/img/produto.jpg"}
+                        src={product.images?.[0] || "img/produto.jpg"}
                         alt={product.name}
                         className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
                       />

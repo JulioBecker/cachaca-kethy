@@ -27,7 +27,7 @@ export function initializeDatabase() {
   } else {
     try {
       const stored = JSON.parse(localStorage.getItem(PRODUCTS_KEY));
-      if (stored && stored.length > 0 && (stored[0].name !== initialProducts[0].name || !stored[0].images || !stored[0].images[0].includes("produto.jpg"))) {
+      if (stored && stored.length > 0 && (stored[0].name !== initialProducts[0].name || !stored[0].images || !stored[0].images[0].includes("produto.jpg") || stored[0].images[0].startsWith("/"))) {
         const updated = stored.map(p => {
           const match = initialProducts.find(ip => ip.id === p.id);
           return match ? { 

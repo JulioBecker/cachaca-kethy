@@ -102,7 +102,7 @@ export default function ProductDetail() {
     const y = ((e.pageY - top - window.scrollY) / height) * 100;
     setZoomStyle({
       display: "block",
-      backgroundImage: `url(${product.images[selectedImageIdx] || "/default_bottle.jpg"})`,
+      backgroundImage: `url(${product.images[selectedImageIdx] || "default_bottle.jpg"})`,
       backgroundPosition: `${x}% ${y}%`,
       backgroundSize: "200%"
     });
@@ -115,7 +115,7 @@ export default function ProductDetail() {
   // Generate placeholder mock images array if not full
   const productImages = product.images && product.images.length > 0 
     ? product.images 
-    : ["/default_bottle.jpg"];
+    : ["default_bottle.jpg"];
 
   return (
     <div className="bg-brand-light text-brand-dark min-h-screen py-10 font-sans text-left">
@@ -475,7 +475,7 @@ export default function ProductDetail() {
                 <div key={p.id} className="bg-white border border-brand-chocolate/10 p-4 shadow-sm hover:shadow-md transition-shadow">
                   <div className="aspect-[4/5] bg-brand-light flex items-center justify-center p-4 border-b border-brand-chocolate/5 relative">
                     <img
-                      src={p.images?.[0] || "/img/produto.jpg"}
+                      src={p.images?.[0] || "img/produto.jpg"}
                       alt={p.name}
                       className="max-h-[110px] object-contain rounded"
                     />

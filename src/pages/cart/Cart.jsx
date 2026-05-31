@@ -101,7 +101,7 @@ export default function Cart() {
                 <div className="flex items-center space-x-4 w-full sm:w-auto">
                   <div className="w-16 h-20 bg-brand-light border border-brand-chocolate/5 flex items-center justify-center p-2 shrink-0">
                     <img
-                      src={item.images?.[0] || "/img/produto.jpg"}
+                      src={item.images?.[0] || "img/produto.jpg"}
                       alt={item.name}
                       className="max-h-[70px] object-contain rounded"
                     />
