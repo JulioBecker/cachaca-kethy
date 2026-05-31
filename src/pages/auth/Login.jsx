@@ -60,12 +60,7 @@ export default function Login() {
             </div>
           )}
 
-          {/* Quick Admin Helpers */}
-          <div className="bg-brand-chocolate/5 border border-brand-chocolate/10 p-3 rounded text-[10px] space-y-1 text-brand-dark/70">
-            <p className="font-bold uppercase tracking-wider text-brand-chocolate">Dicas de Acesso rápido:</p>
-            <p>• Admin: <span className="font-semibold select-all">admin@kethyrios.com.br</span> (Senha: <span className="font-semibold select-all">admin</span>)</p>
-            <p>• Cliente: <span className="font-semibold select-all">arthur@kethyrios.com.br</span> (Senha: <span className="font-semibold select-all">user123</span>)</p>
-          </div>
+
 
           <form onSubmit={handleSubmit} className="space-y-4 text-xs">
             <div className="space-y-1.5">

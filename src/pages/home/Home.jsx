@@ -93,12 +93,12 @@ export default function Home() {
                 <span>Descobrir Catálogo</span>
                 <ArrowRight size={14} />
               </Link>
-              <a
-                href="#historia"
+              <Link
+                to="/#historia"
                 className="border border-brand-beige/40 text-brand-beige hover:border-white hover:text-white text-xs uppercase tracking-widest font-semibold px-8 py-4 transition-all duration-300 text-center"
               >
                 Nossa História
-              </a>
+              </Link>
             </div>
           </div>
         </div>
