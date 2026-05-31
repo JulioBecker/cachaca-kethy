@@ -364,7 +364,7 @@ export default function Home() {
                 {/* Image block (Represented with luxury SVG template) */}
                 <Link
                   to={`/produto/${product.id}`}
-                  className="p-6 flex items-center justify-center bg-brand-chocolate/20 border-b border-brand-chocolate/40 relative overflow-hidden aspect-[4/5] block cursor-pointer"
+                  className="flex items-center justify-center bg-brand-chocolate/20 border-b border-brand-chocolate/40 relative overflow-hidden aspect-[4/5] block cursor-pointer"
                 >
                   {/* Decorative background light */}
                   <div className="absolute inset-0 bg-radial-gradient from-brand-beige/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
@@ -372,7 +372,7 @@ export default function Home() {
                   <img
                     src="img/produto.jpg"
                     alt={product.name}
-                    className="max-h-[200px] object-contain transform group-hover:scale-105 transition-transform duration-300 rounded"
+                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
                   />
                   
                   {/* Quick stats tag overlay */}
